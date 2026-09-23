@@ -13,6 +13,12 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Deploy
 
-Pushes to `main` build a static export and publish to GitHub Pages:
+Pushes to `main` build a static export and publish the `gh-pages` branch.
 
-https://tvotiger.github.io/respite-meeting-prep-9-26/
+In the repo **Settings → Pages**:
+
+1. **Source:** Deploy from a branch
+2. **Branch:** `gh-pages` / `/` (root) — not `/docs`
+3. Save
+
+Site: https://tvotiger.github.io/respite-meeting-prep-9-26/
